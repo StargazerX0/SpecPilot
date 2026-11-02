@@ -1,0 +1,116 @@
+{
+ "setting": "pro6000_c1_qwen38-27b_dflash2",
+ "hardware": "RTX PRO 6000 Blackwell Server (sm_120)",
+ "regime": "single request (batch 1)",
+ "models": {
+  "target": {
+   "hf": "Qwen/Qwen3.8-27B",
+   "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+   "dir": "Qwen3.8-27B"
+  },
+  "drafter": {
+   "hf": "z-lab/Qwen3.8-27B-DFlash2",
+   "revision": "50307d4c4cde6860d4eee73e2547cd786fe8e8a4",
+   "dir": "Qwen3.8-27B-DFlash2"
+  }
+ },
+ "precision": "bf16",
+ "concurrency_levels": [
+  1
+ ],
+ "keep_special_tokens": false,
+ "dspark": false,
+ "stock": {
+  "block_size": 12,
+  "server_flags": [
+   "--dtype",
+   "bfloat16",
+   "--kv-cache-dtype",
+   "auto",
+   "--mamba-ssm-dtype",
+   "float32",
+   "--attention-backend",
+   "triton",
+   "--mem-fraction-static",
+   "0.90",
+   "--max-running-requests",
+   "4",
+   "--cuda-graph-max-bs-decode",
+   "4",
+   "--chunked-prefill-size",
+   "8192",
+   "--disable-radix-cache"
+  ],
+  "spec_flags": [
+   "--speculative-algorithm",
+   "DFLASH"
+  ],
+  "ar_flags": [],
+  "server_env": {}
+ },
+ "final": {
+  "name": "k-001-d3qpdl",
+  "block_size": 32,
+  "launch_args": [],
+  "env": {
+   "SPECPILOT_D1G_FUSE": "1",
+   "SPECPILOT_D1_CHAIN_CERT": "0",
+   "SPECPILOT_D2G_QGATE": "1",
+   "SPECPILOT_D2_EARLY": "15",
+   "SPECPILOT_D2_W12": "1",
+   "SPECPILOT_D2_W12_HEAD": "1",
+   "SPECPILOT_D2_W12_OUT": "1",
+   "SPECPILOT_D2_W12_PREFILL": "0",
+   "SPECPILOT_D3M_CALIB": "1",
+   "SPECPILOT_D3_QBITS_IN": "6",
+   "SPECPILOT_D3_QBITS_MLP": "6",
+   "SPECPILOT_D3_QBITS_REST": "8",
+   "SPECPILOT_D3_QCOPY": "1",
+   "SPECPILOT_D4_HEAD": "off",
+   "SPECPILOT_D4_L2PF": "1",
+   "SPECPILOT_D4_L2PF_CTA": "16",
+   "SPECPILOT_D4_L2PF_GU": "0",
+   "SPECPILOT_D4_L2PF_OF": "100",
+   "SPECPILOT_D4_L2PF_POL": "2",
+   "SPECPILOT_D4_L2PF_QCTA": "32",
+   "SPECPILOT_D4_L2PF_QGU": "64",
+   "SPECPILOT_D4_QHEAD": "1",
+   "SPECPILOT_D4_QVIEW": "1",
+   "SPECPILOT_D4_TAILSKIP": "1",
+   "SPECPILOT_D5_SPLITKV": "1",
+   "SPECPILOT_D5_SPLITKV_DRAFT": "1",
+   "SPECPILOT_D7_ACCEPT": "1",
+   "SPECPILOT_D7_HEAD_FMT": "sym",
+   "SPECPILOT_D7_W4": "all",
+   "SPECPILOT_D7_W4_FMT": "asym",
+   "SPECPILOT_D7_W4_G": "128",
+   "SPECPILOT_D8R_TLV": "1",
+   "SPECPILOT_DB_RA_CONV": "tm",
+   "SPECPILOT_DB_RA_CONV_PAR1": "1",
+   "SPECPILOT_DB_RA_NOSPLIT": "1",
+   "SPECPILOT_DE_DRAFTER_PREC": "fp8",
+   "SPECPILOT_DE_HEAD_PREC": "fp8",
+   "SPECPILOT_DE_VOCAB_SIZE": "98304",
+   "SPECPILOT_K_COMMIT_BV": "8",
+   "SPECPILOT_K_D3Q_TRIG": "1",
+   "SPECPILOT_K_GDN_BV": "4",
+   "SPECPILOT_K_GDN_WY": "1",
+   "SPECPILOT_K_LOGITS_BF16": "1",
+   "SPECPILOT_K_WY_TUNE": "1",
+   "SPECPILOT_TREE_GDN": "paths",
+   "SPECPILOT_TREE_MODE": "ddtree",
+   "SPECPILOT_X3_CONV_BN": "32",
+   "SPECPILOT_X3_FUSE_BA": "1",
+   "SPECPILOT_X3_NORM_ROWS": "64",
+   "SPECPILOT_X3_SPLIT_VIEWS": "1",
+   "SPECPILOT_X4_DRAFT_BLOCK": "16"
+  }
+ },
+ "paper": {
+  "sealed_final_vs_stock": "2.44x [2.37, 2.50]",
+  "stock_vs_ar": "4.46x",
+  "final_vs_ar": "10.87x",
+  "tau_stock": "5.23",
+  "tau_final": "12.80"
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "setting": "h100_c1_qwen38-27b_dspark",
+ "hardware": "H100 80GB SXM5",
+ "regime": "single request (batch 1)",
+ "models": {
+  "target": {
+   "hf": "Qwen/Qwen3.8-27B",
+   "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+   "dir": "Qwen3.8-27B"
+  },
+  "drafter": {
+   "hf": "RadixArk/Qwen3.8-27B-DSpark",
+   "revision": "b9a5dbdf03bc999c6c73c426b19c2d9041cea393",
+   "dir": "Qwen3.8-27B-DSpark"
+  }
+ },
+ "precision": "bf16",
+ "concurrency_levels": [
+  1
+ ],
+ "keep_special_tokens": false,
+ "dspark": true,
+ "stock": {
+  "block_size": 8,
+  "server_flags": [
+   "--dtype",
+   "bfloat16",
+   "--kv-cache-dtype",
+   "auto",
+   "--mamba-ssm-dtype",
+   "float32",
+   "--attention-backend",
+   "fa3",
+   "--mem-fraction-static",
+   "0.90",
+   "--max-running-requests",
+   "4",
+   "--cuda-graph-max-bs-decode",
+   "4",
+   "--chunked-prefill-size",
+   "8192",
+   "--disable-radix-cache"
+  ],
+  "spec_flags": [
+   "--speculative-algorithm",
+   "DSPARK",
+   "--speculative-num-steps",
+   "1",
+   "--speculative-eagle-topk",
+   "1"
+  ],
+  "ar_flags": [],
+  "server_env": {}
+ },
+ "final": {
+  "name": "d6-001-qcopy",
+  "block_size": 32,
+  "launch_args": [],
+  "env": {
+   "SPECPILOT_D1G_FUSE": "1",
+   "SPECPILOT_D1_DS_EDGES": "wide",
+   "SPECPILOT_D1_DS_LINEAGE": "1",
+   "SPECPILOT_D1_DS_SHORTLIST": "2048",
+   "SPECPILOT_D1_DS_TOPK": "32",
+   "SPECPILOT_D2G_QGATE": "1",
+   "SPECPILOT_D2Q_HEAD": "cert",
+   "SPECPILOT_D2_EARLY": "15",
+   "SPECPILOT_D2_INPROJ": "1",
+   "SPECPILOT_D2_PDL": "1",
+   "SPECPILOT_D2_PRE": "1",
+   "SPECPILOT_D2_PREST": "-1",
+   "SPECPILOT_D3_DS_FAST": "1",
+   "SPECPILOT_D4P_GDNCAP": "1",
+   "SPECPILOT_D4P_W12Q": "1",
+   "SPECPILOT_D4_HEAD": "int8",
+   "SPECPILOT_D4_TAILSKIP": "1",
+   "SPECPILOT_D5_W12": "1",
+   "SPECPILOT_D5_W4S": "1",
+   "SPECPILOT_D6_QC": "1",
+   "SPECPILOT_D7_ACCEPT": "1",
+   "SPECPILOT_D7_HEAD_FMT": "sym",
+   "SPECPILOT_D7_W4": "all",
+   "SPECPILOT_D7_W4_FMT": "asym",
+   "SPECPILOT_D7_W4_G": "128",
+   "SPECPILOT_D8R_TLV": "1",
+   "SPECPILOT_D8_ATTN": "1",
+   "SPECPILOT_D8_ATTN_SPLITS": "8",
+   "SPECPILOT_D8_CONV_BN": "32",
+   "SPECPILOT_D8_GDN": "1",
+   "SPECPILOT_D8_TRIGGER": "1",
+   "SPECPILOT_DB_RA_CONV": "tm",
+   "SPECPILOT_DB_RA_CONV_PAR1": "1",
+   "SPECPILOT_DB_RA_NOSPLIT": "1",
+   "SPECPILOT_DE_DRAFTER_PREC": "fp8",
+   "SPECPILOT_DE_HEAD_PREC": "fp8",
+   "SPECPILOT_DE_VOCAB_SIZE": "98304",
+   "SPECPILOT_INT_D3W32": "1",
+   "SPECPILOT_K_COMMIT_BV": "8",
+   "SPECPILOT_K_GDN_BV": "4",
+   "SPECPILOT_K_GDN_WY": "1",
+   "SPECPILOT_K_LOGITS_BF16": "1",
+   "SPECPILOT_K_WY_TUNE": "1",
+   "SPECPILOT_TREE_GDN": "paths",
+   "SPECPILOT_TREE_MODE": "ddtree",
+   "SPECPILOT_X1_GEMM": "1",
+   "SPECPILOT_X3_CONV_BN": "32",
+   "SPECPILOT_X3_FUSE_BA": "1",
+   "SPECPILOT_X3_NORM_ROWS": "64",
+   "SPECPILOT_X3_SPLIT_VIEWS": "1",
+   "SPECPILOT_X4_DRAFT_BLOCK": "16"
+  }
+ },
+ "paper": {
+  "sealed_final_vs_stock": "2.38x [2.33, 2.43]",
+  "stock_vs_ar": "3.74x",
+  "final_vs_ar": "9.41x",
+  "tau_stock": "4.42",
+  "tau_final": "12.85"
+ }
+}

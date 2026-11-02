@@ -1,0 +1,107 @@
+{
+ "setting": "pro6000_c1_muse-30b_dflash2",
+ "hardware": "RTX PRO 6000 Blackwell Server (sm_120)",
+ "regime": "single request (batch 1)",
+ "models": {
+  "target": {
+   "hf": "meta-models/Muse-Glimmer-30B",
+   "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+   "dir": "Muse-Glimmer-30B"
+  },
+  "drafter": {
+   "hf": "incoai/Muse-Glimmer-30B-DFlash2",
+   "revision": "8336acb8dc9b8bf9c25f12d7785ee6df26703119",
+   "dir": "Muse-Glimmer-30B-DFlash2"
+  }
+ },
+ "precision": "bf16",
+ "concurrency_levels": [
+  1
+ ],
+ "keep_special_tokens": false,
+ "dspark": false,
+ "stock": {
+  "block_size": 16,
+  "server_flags": [
+   "--dtype",
+   "bfloat16",
+   "--kv-cache-dtype",
+   "auto",
+   "--mamba-ssm-dtype",
+   "float32",
+   "--attention-backend",
+   "flashinfer",
+   "--mem-fraction-static",
+   "0.88",
+   "--max-running-requests",
+   "4",
+   "--cuda-graph-max-bs-decode",
+   "4",
+   "--chunked-prefill-size",
+   "8192",
+   "--disable-radix-cache",
+   "--max-total-tokens",
+   "131072"
+  ],
+  "spec_flags": [
+   "--speculative-algorithm",
+   "DFLASH"
+  ],
+  "ar_flags": [],
+  "server_env": {}
+ },
+ "final": {
+  "name": "int-003",
+  "block_size": 32,
+  "launch_args": [
+   "--attention-backend=triton",
+   "--language-model-only"
+  ],
+  "env": {
+   "SPECPILOT_D1G_FUSE": "1",
+   "SPECPILOT_D1P_O": "0",
+   "SPECPILOT_D1T_TOPK": "32",
+   "SPECPILOT_D2G_QGATE": "1",
+   "SPECPILOT_D2_W12": "1",
+   "SPECPILOT_D2_W12_HEAD": "1",
+   "SPECPILOT_D2_W12_OUT": "1",
+   "SPECPILOT_D3_QBITS_MLP": "6",
+   "SPECPILOT_D3_QBITS_REST": "8",
+   "SPECPILOT_D3_QCOPY": "1",
+   "SPECPILOT_D4_L2PF": "1",
+   "SPECPILOT_D4_L2PF_CTA": "32",
+   "SPECPILOT_D4_L2PF_GU": "64",
+   "SPECPILOT_D4_L2PF_OF": "100",
+   "SPECPILOT_D4_L2PF_QCTA": "32",
+   "SPECPILOT_D4_L2PF_QGU": "64",
+   "SPECPILOT_D4_QVIEW": "1",
+   "SPECPILOT_D4_TAILSKIP": "1",
+   "SPECPILOT_D5K_MAXM": "32",
+   "SPECPILOT_D5_SPLITKV": "1",
+   "SPECPILOT_D5_SPLITKV_DRAFT": "1",
+   "SPECPILOT_D5_W4S": "1",
+   "SPECPILOT_D6_GLUE": "1",
+   "SPECPILOT_D6_HSYNC": "1",
+   "SPECPILOT_D6_QKR": "1",
+   "SPECPILOT_D7W_W11": "1",
+   "SPECPILOT_D7_ACCEPT": "1",
+   "SPECPILOT_D7_HEAD_FMT": "sym",
+   "SPECPILOT_D7_W4": "all",
+   "SPECPILOT_D7_W4_FMT": "asym",
+   "SPECPILOT_D7_W4_G": "128",
+   "SPECPILOT_D8R_TLV": "1",
+   "SPECPILOT_DE_HEAD_PREC": "fp8",
+   "SPECPILOT_K_D3Q_TRIG": "1",
+   "SPECPILOT_TREE_MODE": "ddtree",
+   "SPECPILOT_TREE_TEMP": "1.4",
+   "SPECPILOT_X4_DRAFT_BLOCK": "16"
+  }
+ },
+ "paper": {
+  "sealed_final_vs_stock": "2.21x [2.15, 2.26]",
+  "stock_vs_ar": "4.69x",
+  "final_vs_ar": "10.63x",
+  "tau_stock": "5.16",
+  "tau_final": "12.64"
+ }
+}

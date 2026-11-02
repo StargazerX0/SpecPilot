@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dflash-lab"
+version = "0.1.0"
+description = "Training-free DFlash2 experiments as SGLang plugins (weights fixed, verification untouched)"
+requires-python = ">=3.10"
+
+# SGLang loads this in every server process (HTTP, scheduler, TP workers)
+# before model load and CUDA-graph capture; it is a no-op unless DFLASH_LAB is set.
+[project.entry-points."sglang.srt.plugins"]
+dflash_lab = "dflash_lab.plugin:register"
+
+[tool.setuptools.packages.find]
+include = ["dflash_lab*"]

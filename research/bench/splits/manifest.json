@@ -1,0 +1,55 @@
+{
+ "seed": 20260928,
+ "rule": "Per suite, the test pool is shuffled with random.Random(seed); dev = the first 20 items.",
+ "datasets": {
+  "gsm8k": {
+   "hf": [
+    "openai/gsm8k",
+    "main"
+   ],
+   "split": "test",
+   "revision": "740312add88f781978c0658806c59bc2815b9866",
+   "n": 1319
+  },
+  "math500": {
+   "hf": [
+    "HuggingFaceH4/MATH-500"
+   ],
+   "split": "test",
+   "revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "n": 500
+  },
+  "humaneval": {
+   "hf": [
+    "openai/openai_humaneval"
+   ],
+   "split": "test",
+   "revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+   "n": 164
+  },
+  "mbpp": {
+   "hf": [
+    "google-research-datasets/mbpp",
+    "sanitized"
+   ],
+   "split": "test",
+   "revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c",
+   "n": 257
+  },
+  "mt-bench": {
+   "hf": [
+    "HuggingFaceH4/mt_bench_prompts"
+   ],
+   "split": "train",
+   "revision": "e3a795c5e9a82ee40611c416b8a7786c73198991",
+   "n": 80
+  }
+ },
+ "files": {
+  "dev/gsm8k.jsonl": "69480bf3ba52d38789d36ab81e87646863d3a6bcc11ccee6e48eb78f5a620739",
+  "dev/math500.jsonl": "82fac2ba3c9ec188cc4d84784feec41ac21e1acf190a5c06a7ae1653d6e2576b",
+  "dev/humaneval.jsonl": "8d1a262b8ab34532f86a5096d59752cb24f690fe534ad07035b05d6bdeb85d6f",
+  "dev/mbpp.jsonl": "5b336f01cfab6c910a526280c14f1dd17e13056d738fcbc655cbccb11aea0719",
+  "dev/mt-bench.jsonl": "8aaec6bb838f1f15b3cf5e942335ee86f767d012f67b3dfa0b6b59f5b12aaabe"
+ }
+}

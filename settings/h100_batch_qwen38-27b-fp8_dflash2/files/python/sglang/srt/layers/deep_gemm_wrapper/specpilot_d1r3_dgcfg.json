@@ -1,0 +1,1552 @@
+{
+ "default_mult": [
+  1,
+  1
+ ],
+ "entries": {
+  "14336x5120": {
+   "144": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "197": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "246": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "249": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "251": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "256": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "307": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "313": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "319": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "323": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "328": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "330": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "332": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "340": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "342": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "357": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "358": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "359": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "362": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "364": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "369": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "371": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "376": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "379": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "380": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "383": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "385": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "404": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "406": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "408": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "415": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "421": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "431": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "452": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "457": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "463": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "469": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "485": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "494": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "501": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "503": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "504": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "507": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "510": {
+    "mult": null,
+    "num_sms": 120
+   }
+  },
+  "16384x5120": {
+   "144": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "160": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "192": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "208": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "224": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "240": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "256": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "277": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "286": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "314": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "316": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "320": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "321": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "326": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "329": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "331": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "334": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "336": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "337": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "338": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "342": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "343": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "344": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "345": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "346": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "347": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "350": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "351": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "353": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "354": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "355": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "356": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "357": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "358": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "359": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "360": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "361": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "362": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "363": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "364": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "365": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "366": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "367": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "369": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "370": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "371": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "372": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "374": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "375": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "376": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "377": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "378": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "379": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "380": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "382": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "383": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "384": {
+    "mult": null,
+    "num_sms": 128
+   }
+  },
+  "34816x5120": {
+   "257": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "260": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "261": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "263": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "265": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "267": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "271": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "272": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "281": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "286": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "288": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "291": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "296": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "297": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "298": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "304": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "305": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "306": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "307": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "309": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "313": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "315": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "316": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "318": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "320": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "321": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "323": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "324": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "326": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "327": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "329": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "331": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "334": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "336": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "337": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "338": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "342": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "343": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "345": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "346": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "348": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "349": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "350": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "352": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "354": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "355": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "359": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "360": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "361": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "364": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "365": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "366": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "368": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "370": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "371": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "375": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "377": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "378": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "384": {
+    "num_sms": 112,
+    "mult": null
+   },
+   "398": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "404": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "405": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "411": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "420": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "432": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "502": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "505": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "507": {
+    "mult": null,
+    "num_sms": 120
+   }
+  },
+  "5120x17408": {
+   "32": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "64": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "96": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "128": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "129": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "130": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "132": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "135": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "136": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "137": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "139": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "140": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "142": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "144": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "152": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "153": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "162": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "184": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "185": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "186": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "191": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "193": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "194": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "195": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "196": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "198": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "200": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "201": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "204": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "205": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "207": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "210": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "215": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "223": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "230": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "254": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "257": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "258": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "259": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "260": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "261": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "262": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "263": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "264": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "265": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "266": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "267": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "268": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "269": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "270": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "271": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "272": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "273": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "274": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "276": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "277": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "278": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "279": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "280": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "281": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "282": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "283": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "284": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "285": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "286": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "287": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "288": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "289": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "290": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "291": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "292": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "293": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "294": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "295": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "296": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "297": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "298": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "299": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "300": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "301": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "302": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "303": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "304": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "305": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "306": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "307": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "308": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "309": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "310": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "311": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "312": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "313": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "314": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "315": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "316": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "317": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "318": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "319": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "320": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "321": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "323": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "324": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "326": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "331": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "335": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "338": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "348": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "367": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "385": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "386": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "413": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "505": {
+    "mult": null,
+    "num_sms": 128
+   }
+  },
+  "5120x4096": {
+   "16": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "272": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "288": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "304": {
+    "mult": null,
+    "num_sms": 128
+   }
+  },
+  "5120x6144": {
+   "145": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "178": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "179": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "180": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "184": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "190": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "229": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "233": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "242": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "247": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "249": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "253": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "254": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "255": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "257": {
+    "mult": null,
+    "num_sms": 112
+   },
+   "258": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "259": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "260": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "261": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "262": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "263": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "264": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "265": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "266": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "267": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "268": {
+    "mult": null,
+    "num_sms": 88
+   },
+   "269": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "270": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "271": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "272": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "273": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "274": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "275": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "276": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "277": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "278": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "279": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "280": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "281": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "282": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "283": {
+    "mult": null,
+    "num_sms": 96
+   },
+   "284": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "285": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "286": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "287": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "288": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "289": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "290": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "291": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "292": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "293": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "294": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "295": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "296": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "297": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "298": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "299": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "300": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "301": {
+    "mult": null,
+    "num_sms": 104
+   },
+   "302": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "303": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "304": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "305": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "306": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "307": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "308": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "309": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "310": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "311": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "312": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "313": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "314": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "315": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "316": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "317": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "318": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "319": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "320": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "321": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "325": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "328": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "331": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "332": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "342": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "356": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "365": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "369": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "371": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "376": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "381": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "383": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "404": {
+    "mult": null,
+    "num_sms": 128
+   }
+  },
+  "6144x5120": {
+   "192": {
+    "mult": null,
+    "num_sms": 120
+   },
+   "336": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "352": {
+    "mult": null,
+    "num_sms": 128
+   },
+   "384": {
+    "mult": null,
+    "num_sms": 120
+   }
+  },
+  "98304x5120": {
+   "300": {
+    "mult": null,
+    "num_sms": 112
+   }
+  }
+ }
+}
